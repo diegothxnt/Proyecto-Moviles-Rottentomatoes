@@ -1,0 +1,119 @@
+@import "@ionic/angular/css/core.css";
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import "@ionic/angular/css/display.css";
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/flex-utils.css";
+@import "@ionic/angular/css/text-alignment.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
+* {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+ion-content {
+  --background: var(--color-pure-black);
+}
+
+ion-toolbar {
+  --background: var(--color-pure-black);
+  --border-color: var(--color-carbon);
+  --color: var(--color-text-primary);
+}
+
+ion-title {
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+ion-card {
+  --background: var(--color-carbon);
+  border-radius: var(--radius-cards);
+  box-shadow: none;
+  margin: 0;
+}
+
+ion-item {
+  --background: var(--color-carbon);
+  --color: var(--color-text-primary);
+  --border-color: var(--color-charcoal);
+  --highlight-color-focused: var(--color-brand-red);
+}
+
+ion-input, ion-textarea, ion-select {
+  --background: var(--color-charcoal);
+  --color: var(--color-text-primary);
+  --placeholder-color: var(--color-text-secondary);
+  --padding-start: 12px;
+  --padding-end: 12px;
+  --border-radius: var(--radius-inputs);
+}
+
+.btn-primary {
+  --background: var(--color-brand-red);
+  --background-hover: var(--color-brand-dark-red);
+  --color: #ffffff;
+  --border-radius: var(--radius-buttons);
+  --padding-top: 12px;
+  --padding-bottom: 12px;
+  --padding-start: 24px;
+  --padding-end: 24px;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 16px;
+}
+
+.btn-ghost {
+  --background: transparent;
+  --color: var(--color-text-primary);
+  --border-color: var(--color-border);
+  --border-width: 1px;
+  --border-style: solid;
+  --border-radius: var(--radius-buttons);
+  text-transform: none;
+}
+
+.text-secondary { color: var(--color-text-secondary); }
+.text-muted     { color: var(--color-text-muted); }
+
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin: var(--space-24) var(--space-16) var(--space-12);
+}
+
+.divider-glow {
+  height: 1px;
+  background: linear-gradient(0deg,
+    rgba(0,0,0,0) 0%,
+    #6f181d 50%,
+    rgba(0,0,0,0) 100%);
+  margin: var(--space-24) 0;
+}
+/* ⚡ Subir la barra para que no choque con los botones del sistema en Redmi 9A */
+ion-tab-bar {
+  padding-bottom: calc(30px + env(safe-area-inset-bottom)) !important;
+  height: calc(80px + env(safe-area-inset-bottom)) !important;
+  border-top: 1px solid #232323;
+}
+
+ion-tabs {
+  --ion-safe-area-bottom: env(safe-area-inset-bottom);
+}
+
+/* Ajustar el icono y el texto para que queden centrados en el nuevo espacio */
+ion-tab-button {
+  padding-top: 8px;
+}
+/* Hace que las respuestas de nivel 1 tengan un tono un poco más oscuro */
+.reply-card {
+  background: #121212;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 8px;
+}
