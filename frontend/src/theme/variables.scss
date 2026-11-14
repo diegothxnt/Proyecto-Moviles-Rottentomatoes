@@ -1,0 +1,61 @@
+/* Rotten Tomatoes — Dark Cinema Theme (basado en DESIGN.md) */
+:root {
+  --color-brand-red: #e50914;
+  --color-brand-dark-red: #b00610;
+
+  --color-pure-black: #000000;
+  --color-obsidian: #0f0f0f;
+  --color-carbon: #232323;
+  --color-charcoal: #2d2d2d;
+  --color-graphite: #323232;
+  --color-slate: #393939;
+
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #b3b3b3;
+  --color-text-muted: #808080;
+  --color-border: #5a5a5a;
+
+  --ion-background-color: #000000;
+  --ion-background-color-rgb: 0, 0, 0;
+  --ion-text-color: #ffffff;
+  --ion-text-color-rgb: 255, 255, 255;
+
+  --ion-color-primary: #e50914;
+  --ion-color-primary-rgb: 229, 9, 20;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #ca0812;
+  --ion-color-primary-tint: #e8222c;
+
+  --ion-color-secondary: #b3b3b3;
+  --ion-color-secondary-rgb: 179, 179, 179;
+  --ion-color-secondary-contrast: #000000;
+
+  --ion-color-danger: #e50914;
+  --ion-color-success: #46d369;
+  --ion-color-warning: #f5c518;
+
+  --ion-card-background: #232323;
+  --ion-item-background: #0f0f0f;
+  --ion-toolbar-background: #000000;
+  --ion-tab-bar-background: #0f0f0f;
+  --ion-tab-bar-border-color: #232323;
+  --ion-tab-bar-color: #808080;
+  --ion-tab-bar-color-selected: #e50914;
+
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --radius-sm: 2px;
+  --radius-inputs: 4px;
+  --radius-buttons: 8px;
+  --radius-cards: 8px;
+  --radius-tiles: 16px;
+
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-64: 64px;
+}
